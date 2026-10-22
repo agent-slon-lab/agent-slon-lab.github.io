@@ -1,6 +1,13 @@
-# Fart Counter PWA — GitHub Pages mirror
+# agent-slon-lab.github.io — витрина приложений Slon Lab
 
-Automatic live mirror of the Vercel deployment (fart-counter-lake.vercel.app),
-which is blocked in Russia by SNI filtering. Updated by GitHub Actions on every
-push to main of agent-slon-lab/fart-counter.
-Source: https://github.com/agent-slon-lab/fart-counter
+Корневой сайт аккаунта — каталог PWA-приложений. Каждое приложение живёт на
+своей проектной странице и обновляется автоматически (зеркало продакшена
+на Vercel, зона `*.vercel.app` недоступна из РФ по SNI-блокировке):
+
+- 🚴 **BikeSnap** — AI-анализ посадки на велосипеде → https://agent-slon-lab.github.io/BikeSnap/ (репозиторий [BikeSnap](https://github.com/agent-slon-lab/BikeSnap))
+- 💨 **Fart Counter** — счётчик пуков → https://agent-slon-lab.github.io/fart-counter/ (репозиторий [fart-counter](https://github.com/agent-slon-lab/fart-counter))
+
+Корень больше не используется ни одним зеркалом: до 21.10.2026 здесь шла
+«война ботов» двух приложений за корень (зеркала перезаписывали друг друга).
+Теперь каждое приложение занимает свою «полку» `/<имя-репозитория>/`, и
+новые приложения получают адрес автоматически, без конфликтов.
